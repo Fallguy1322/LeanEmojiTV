@@ -126,6 +126,7 @@ public class LeanbackKeyboardContainer {
     private boolean mSuggestionsEnabled;
     private boolean mForceDisableSuggestions;
     private Keyboard mSymKeyboard;
+    private Keyboard mEmojiKeyboard;
     private KeyFocus mTempKeyInfo = new KeyFocus();
     private PointF mTempPoint = new PointF();
     private boolean mTouchDown = false;
@@ -920,8 +921,12 @@ public class LeanbackKeyboardContainer {
 
     public void onModeChangeClick() {
         dismissMiniKeyboard();
-        if (mMainKeyboardView.getKeyboard().equals(mSymKeyboard)) {
+        Keyboard currentKeyboard = mMainKeyboardView.getKeyboard();
+
+        if (currentKeyboard != null && currentKeyboard.equals(mEmojiKeyboard)) {
             mMainKeyboardView.setKeyboard(mInitialMainKeyboard);
+        } else if (currentKeyboard != null && currentKeyboard.equals(mSymKeyboard)) {
+            mMainKeyboardView.setKeyboard(mEmojiKeyboard);
         } else {
             mMainKeyboardView.setKeyboard(mSymKeyboard);
         }
@@ -1179,6 +1184,7 @@ public class LeanbackKeyboardContainer {
             mMainKeyboardView.setKeyboard(nextKeyboard.abcKeyboard);
 
             mSymKeyboard = nextKeyboard.symKeyboard;
+            mEmojiKeyboard = new Keyboard(mContext, R.xml.emoji);
             mNumKeyboard = nextKeyboard.numKeyboard;
         }
     }
@@ -1191,6 +1197,7 @@ public class LeanbackKeyboardContainer {
         mMainKeyboardView.setKeyboard(keyboard.abcKeyboard);
 
         mSymKeyboard = keyboard.symKeyboard;
+        mEmojiKeyboard = new Keyboard(mContext, R.xml.emoji);
         mNumKeyboard = keyboard.numKeyboard;
 
         mThemeManager.updateKeyboardTheme();
