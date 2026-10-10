@@ -3,132 +3,32 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <Row>
         <Key android:codes="128512" android:keyLabel="😀" />
-        <Key android:codes="128515" android:keyLabel="😃" />
-        <Key android:codes="128516" android:keyLabel="😄" />
-        <Key android:codes="128513" android:keyLabel="😁" />
-        <Key android:codes="128518" android:keyLabel="😆" />
-        <Key android:codes="128517" android:keyLabel="😅" />
         <Key android:codes="128514" android:keyLabel="😂" />
-        <Key android:codes="129315" android:keyLabel="🤣" />
-    </Row>
-    <Row>
-        <Key android:codes="128522" android:keyLabel="😊" />
-        <Key android:codes="128519" android:keyLabel="😇" />
-        <Key android:codes="128578" android:keyLabel="🙂" />
-        <Key android:codes="128579" android:keyLabel="🙃" />
-        <Key android:codes="128521" android:keyLabel="😉" />
+        <Key android:codes="128515" android:keyLabel="😃" />
         <Key android:codes="128525" android:keyLabel="😍" />
-        <Key android:codes="129392" android:keyLabel="🥰" />
-        <Key android:codes="128536" android:keyLabel="😘" />
-    </Row>
-    <Row>
-        <Key android:codes="128539" android:keyLabel="😋" />
-        <Key android:codes="128526" android:keyLabel="😎" />
-        <Key android:codes="129321" android:keyLabel="🤩" />
-        <Key android:codes="129395" android:keyLabel="🥳" />
-        <Key android:codes="128564" android:keyLabel="😴" />
-        <Key android:codes="129300" android:keyLabel="🤔" />
-        <Key android:codes="129320" android:keyLabel="🤨" />
-        <Key android:codes="128566" android:keyLabel="😶" />
-    </Row>
-    <Row>
+        <Key android:codes="128578" android:keyLabel="🙂" />
         <Key android:codes="128577" android:keyLabel="🙁" />
-        <Key android:codes="9785" android:keyLabel="☹️" />
         <Key android:codes="128546" android:keyLabel="😢" />
-        <Key android:codes="128557" android:keyLabel="😭" />
         <Key android:codes="128545" android:keyLabel="😡" />
-        <Key android:codes="129324" android:keyLabel="🤬" />
-        <Key android:codes="128561" android:keyLabel="😱" />
-        <Key android:codes="128563" android:keyLabel="😳" />
     </Row>
     <Row>
         <Key android:codes="128077" android:keyLabel="👍" />
         <Key android:codes="128078" android:keyLabel="👎" />
         <Key android:codes="128076" android:keyLabel="👌" />
-        <Key android:codes="9996" android:keyLabel="✌️" />
-        <Key android:codes="129310" android:keyLabel="🤞" />
-        <Key android:codes="129311" android:keyLabel="🤟" />
-        <Key android:codes="129304" android:keyLabel="🤘" />
-        <Key android:codes="128079" android:keyLabel="👏" />
-    </Row>
-    <Row>
-        <Key android:codes="128588" android:keyLabel="🙌" />
-        <Key android:codes="128080" android:keyLabel="👐" />
-        <Key android:codes="129309" android:keyLabel="🤝" />
-        <Key android:codes="128591" android:keyLabel="🙏" />
-        <Key android:codes="128170" android:keyLabel="💪" />
         <Key android:codes="128075" android:keyLabel="👋" />
-        <Key android:codes="129782" android:keyLabel="🫶" />
-        <Key android:codes="128133" android:keyLabel="💅" />
-    </Row>
-    <Row>
+        <Key android:codes="128079" android:keyLabel="👏" />
+        <Key android:codes="128170" android:keyLabel="💪" />
         <Key android:codes="10084" android:keyLabel="❤️" />
-        <Key android:codes="129505" android:keyLabel="🧡" />
-        <Key android:codes="128155" android:keyLabel="💛" />
-        <Key android:codes="128154" android:keyLabel="💚" />
-        <Key android:codes="128153" android:keyLabel="💙" />
-        <Key android:codes="128156" android:keyLabel="💜" />
-        <Key android:codes="128420" android:keyLabel="🖤" />
-        <Key android:codes="129293" android:keyLabel="🤍" />
-    </Row>
-    <Row>
-        <Key android:codes="128148" android:keyLabel="💔" />
-        <Key android:codes="128149" android:keyLabel="💕" />
-        <Key android:codes="128158" android:keyLabel="💞" />
-        <Key android:codes="128150" android:keyLabel="💖" />
-        <Key android:codes="128151" android:keyLabel="💗" />
-        <Key android:codes="128152" android:keyLabel="💘" />
-        <Key android:codes="128157" android:keyLabel="💝" />
-        <Key android:codes="128175" android:keyLabel="💯" />
-    </Row>
-    <Row>
         <Key android:codes="128293" android:keyLabel="🔥" />
-        <Key android:codes="10024" android:keyLabel="✨" />
-        <Key android:codes="11088" android:keyLabel="⭐" />
-        <Key android:codes="127775" android:keyLabel="🌟" />
-        <Key android:codes="9889" android:keyLabel="⚡" />
-        <Key android:codes="9728" android:keyLabel="☀️" />
-        <Key android:codes="127752" android:keyLabel="🌈" />
-        <Key android:codes="10052" android:keyLabel="❄️" />
     </Row>
     <Row>
         <Key android:codes="128640" android:keyLabel="🚀" />
-        <Key android:codes="9992" android:keyLabel="✈️" />
-        <Key android:codes="128663" android:keyLabel="🚗" />
-        <Key android:codes="128690" android:keyLabel="🚲" />
-        <Key android:codes="127918" android:keyLabel="🎮" />
-        <Key android:codes="127919" android:keyLabel="🎯" />
-        <Key android:codes="127942" android:keyLabel="🏆" />
         <Key android:codes="127881" android:keyLabel="🎉" />
-    </Row>
-    <Row>
+        <Key android:codes="128526" android:keyLabel="😎" />
         <Key android:codes="128049" android:keyLabel="🐱" />
         <Key android:codes="128054" android:keyLabel="🐶" />
-        <Key android:codes="128060" android:keyLabel="🐼" />
-        <Key android:codes="129418" android:keyLabel="🦊" />
-        <Key android:codes="128056" android:keyLabel="🐸" />
-        <Key android:codes="128053" android:keyLabel="🐵" />
-        <Key android:codes="129412" android:keyLabel="🦄" />
-        <Key android:codes="128039" android:keyLabel="🐧" />
-    </Row>
-    <Row>
         <Key android:codes="127829" android:keyLabel="🍕" />
-        <Key android:codes="127828" android:keyLabel="🍔" />
-        <Key android:codes="127839" android:keyLabel="🍟" />
-        <Key android:codes="127790" android:keyLabel="🌮" />
-        <Key android:codes="127822" android:keyLabel="🍎" />
-        <Key android:codes="127817" android:keyLabel="🍉" />
-        <Key android:codes="127827" android:keyLabel="🍓" />
-        <Key android:codes="127856" android:keyLabel="🍰" />
-    </Row>
-    <Row>
-        <Key android:codes="9749" android:keyLabel="☕" />
-        <Key android:codes="127925" android:keyLabel="🎵" />
-        <Key android:codes="127926" android:keyLabel="🎶" />
-        <Key android:codes="128161" android:keyLabel="💡" />
-        <Key android:codes="128241" android:keyLabel="📱" />
-        <Key android:codes="128187" android:keyLabel="💻" />
-        <Key android:codes="128250" android:keyLabel="📺" />
-        <Key android:codes="127873" android:keyLabel="🎁" />
+        <Key android:codes="128156" android:keyLabel="💜" />
+        <Key android:codes="10024" android:keyLabel="✨" />
     </Row>
 </Keyboard>
