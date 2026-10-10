@@ -28,7 +28,7 @@
         <Key android:codes="92" android:keyEdgeFlags="right" android:keyLabel="\\" />
     </Row>
     <Row>
-        <Key android:codes="176" android:keyEdgeFlags="left" android:keyLabel="°" />
+        <Key android:codes="128512" android:popupKeyboard="@xml/emoji" android:keyEdgeFlags="left" android:keyLabel="😀" />
         <Key android:codes="191" android:keyLabel="¿" />
         <Key android:codes="161" android:keyLabel="¡" />
         <Key android:codes="247" android:keyLabel="÷" />
