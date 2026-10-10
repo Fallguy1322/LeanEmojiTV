@@ -12,23 +12,38 @@
         <Key android:codes="128545" android:keyLabel="😡" />
     </Row>
     <Row>
+        <Key android:codes="128536" android:keyLabel="😘" />
+        <Key android:codes="128526" android:keyLabel="😎" />
+        <Key android:codes="129315" android:keyLabel="🤣" />
+        <Key android:codes="128517" android:keyLabel="😅" />
+        <Key android:codes="128563" android:keyLabel="😳" />
+        <Key android:codes="128557" android:keyLabel="😭" />
+        <Key android:codes="128128" android:keyLabel="💀" />
+        <Key android:codes="128123" android:keyLabel="👻" />
+    </Row>
+    <Row>
         <Key android:codes="128077" android:keyLabel="👍" />
         <Key android:codes="128078" android:keyLabel="👎" />
         <Key android:codes="128076" android:keyLabel="👌" />
         <Key android:codes="128075" android:keyLabel="👋" />
         <Key android:codes="128079" android:keyLabel="👏" />
         <Key android:codes="128170" android:keyLabel="💪" />
-        <Key android:codes="10084" android:keyLabel="❤️" />
         <Key android:codes="128293" android:keyLabel="🔥" />
+        <Key android:codes="10084" android:keyLabel="❤️" />
     </Row>
     <Row>
         <Key android:codes="128640" android:keyLabel="🚀" />
         <Key android:codes="127881" android:keyLabel="🎉" />
-        <Key android:codes="128526" android:keyLabel="😎" />
         <Key android:codes="128049" android:keyLabel="🐱" />
         <Key android:codes="128054" android:keyLabel="🐶" />
         <Key android:codes="127829" android:keyLabel="🍕" />
+        <Key android:codes="127881" android:keyLabel="🎊" />
         <Key android:codes="128156" android:keyLabel="💜" />
         <Key android:codes="10024" android:keyLabel="✨" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="25%p" android:codes="-2" android:keyLabel="ABC" />
+        <Key android:keyWidth="50%p" android:codes="32" android:keyLabel="Space" />
+        <Key android:keyWidth="25%p" android:codes="-5" android:keyLabel="⌫" />
     </Row>
 </Keyboard>
