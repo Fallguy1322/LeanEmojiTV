@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="@dimen/key_width" android:keyHeight="@dimen/key_height" android:horizontalGap="@dimen/keyboard_horizontal_gap" android:verticalGap="@dimen/keyboard_horizontal_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:keyEdgeFlags="left" android:keyIcon="@drawable/ic_ime_accent_close" />
+        <Key android:codes="1611" android:keyLabel="ً" />
+        <Key android:codes="1612" android:keyLabel="ٌ" />
+        <Key android:codes="1613" android:keyLabel="ٍ" />
+        <Key android:codes="1614" android:keyLabel="َ" />
+    </Row>
+    <Row>
+        <Key android:codes="1615" android:keyLabel="ُ" android:keyEdgeFlags="left" />
+        <Key android:codes="1616" android:keyLabel="ِ" />
+        <Key android:codes="1617" android:keyLabel="ّ" />
+        <Key android:codes="1618" android:keyLabel="ْ" />
+        <Key android:codes="1648" android:keyLabel="ٰ" android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>
